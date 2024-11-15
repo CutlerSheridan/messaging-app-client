@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 const App = ({ children }) => {
   // const [count, setCount] = useState(0);
-  const [jwt, setJwt] = useState(localStorage.getItem('jwt'));
+  const [jwt, setJwt] = useState(localStorage.getItem('msg-app-jwt'));
   const location = useLocation();
 
   const updateJwt = (jwtData) => {
@@ -16,9 +16,9 @@ const App = ({ children }) => {
 
     setJwt(newJwt);
     if (newJwt) {
-      localStorage.setItem('jwt', newJwt);
+      localStorage.setItem('msg-app-jwt', newJwt);
     } else {
-      localStorage.removeItem('jwt');
+      localStorage.removeItem('msg-app-jwt');
     }
   };
 

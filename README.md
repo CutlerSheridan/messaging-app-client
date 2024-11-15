@@ -7,10 +7,8 @@
 
 #### TODO NEXT
 
-- add navbar indication as to login status
-- make active navbar link highlighted somehow
-- change log in navbar tab to log out if logged in
 - add signup and login functionality
+- add logout functionality
 
 #### TODO LATER
 
@@ -20,10 +18,16 @@
 
 ##### Style
 
+- add user info to navbar if logged in
 - style Error404 component
 - add credit
 
 #### DONE
+
+_0.1.1_
+
+- make active navbar link underlined
+- change 'log in' navbar tab to 'log out' if logged in
 
 _0.1.0_
 
