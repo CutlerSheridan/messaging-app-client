@@ -7,8 +7,9 @@
 
 #### TODO NEXT
 
-- add error component
-- route errors to error
+- add navbar indication as to login status
+- make active navbar link highlighted somehow
+- change log in navbar tab to log out if logged in
 - add signup and login functionality
 
 #### TODO LATER
@@ -19,9 +20,19 @@
 
 ##### Style
 
+- style Error404 component
 - add credit
 
 #### DONE
+
+_0.1.0_
+
+- create Auth.jsx login/signup page
+- add SERVER_URL
+- add some structure to Auth component for testing
+- add navbar links for home and log in
+- add error component
+- route errors to error
 
 _0.0.1_
 
