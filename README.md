@@ -24,6 +24,12 @@
 
 #### DONE
 
+_0.1.2_
+
+- write Auth.jsx handleSubmit logic
+- write fetchFormResponse logic
+- write html elements for Auth page
+
 _0.1.1_
 
 - make active navbar link underlined
